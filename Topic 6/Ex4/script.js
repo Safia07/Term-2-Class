@@ -1,6 +1,9 @@
-var element = document.getElementById('H1');
+function scriptLoaded() {
+    var element = document.getElementById('H1');
     element.firstChild.nodeValue = 'New Heading';
 
-addEventListener
+    var element = document.getElementById('P1');
+    element.firstChild.nodeValue = 'New Content on February 30th 2029';
+}
 
-page 79 onwards
+document.addEventListener('DOMContentLoaded', scriptLoaded);
