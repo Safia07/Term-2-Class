@@ -6,4 +6,4 @@ function scriptLoaded() {
     element.firstChild.nodeValue = 'New Content on February 30th 2029';
 }
 
-document.addEventListener('DOMContentLoaded', scriptLoaded);
+document.addEventListener('click', scriptLoaded);
