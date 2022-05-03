@@ -11,10 +11,15 @@ function addition() {
     alert(num3);
 }
 
+function myClickFunction() {
+    var element = document.getElementById('PH');
+    element.firstChild.nodeValue = 'Boo!'
+}
+
 function myLoadFunction() {
     var element = document.getElementById('PH');
-
-    element.firstChild.nodeValue = 'New Heading';
+    element.addEventListener('click', myClickFunction);
 }
+// The page has 'Page Heading' and 'Page Content' when you load the page and then if you click on the former then it'll change to 'Boo!'
 
 document.addEventListener('DOMContentLoaded', myLoadFunction);
