@@ -33,3 +33,11 @@ document.addEventListener('DOMContentLoaded', myLoadFunction);
 // e.g. element.style.width = '50px';
 // e.g. element.style.height = '50px';
 // e.g. element.style.backgroundColor = 'blue';
+
+
+
+
+// Opacity = Transparency, takes a value from 0 - 1
+// 1 = completely opaque
+// 0 = completely transparent
+// 0.5 = half transparent
