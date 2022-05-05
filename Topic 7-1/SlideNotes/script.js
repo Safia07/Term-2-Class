@@ -41,3 +41,16 @@ document.addEventListener('DOMContentLoaded', myLoadFunction);
 // 1 = completely opaque
 // 0 = completely transparent
 // 0.5 = half transparent
+
+
+// Converting strings to numbers:
+// There are two functions for converting strings to
+// numbers:
+// – parseInt() - converts a string into the closest whole number
+// e.g 123
+
+// – parseFloat() - converts a string into the closest decimal
+// number e.g. 1.23
+//  var element = document.getElementById('circle');
+//  var circleOpacity = parseFloat(element.style.opacity);
+//  element.style.opacity = circleOpacity + 0.1;
