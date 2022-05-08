@@ -8,9 +8,19 @@ function loadFunction() {
 }
 
 function clickCircle() {
+    console.log('myInterval called');
+    // var element = document.getElementById('circle');
+    // var circleOpacity = parseFloat(element.style.opacity);
+    // element.style.opacity = circleOpacity - 0.1;
+}
+
+function myInterval() {
+    // console.log('clickCircle called');
     var element = document.getElementById('circle');
     var circleOpacity = parseFloat(element.style.opacity);
     element.style.opacity = circleOpacity - 0.1;
 }
+
+setInterval(myInterval, 1000);
 
 document.addEventListener('DOMContentLoaded', loadFunction);
